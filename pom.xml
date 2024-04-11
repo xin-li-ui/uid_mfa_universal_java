@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.uidsecurity</groupId>
+    <artifactId>uid-mfa-universal-java</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <name>UID MFA Universal Java</name>
+    <url>https://github.com/uidsecurity/uid_mfa_universal_java/</url>
+    <description>UID Web SDK for Multi-Factor Authentication</description>
+    <developers>
+        <developer>
+            <name>UID Security</name>
+            <email>support@uidsecurity.com</email>
+            <organization>UID Security Inc.</organization>
+            <organizationUrl>https://uid.com/docs/uidweb-v4</organizationUrl>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>BSD</name>
+            <url>https://opensource.org/licenses/BSD-3-Clause</url>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git:git://github.com/uidsecurity/uid_mfa_universal_java.git</connection>
+        <developerConnection>scm:git:ssh://github.com:uidsecurity/uid_mfa_universal_java.git</developerConnection>
+        <url>https://github.com/uidsecurity/uid_universal_java/tree/main</url>
+    </scm>
+    <modules>
+        <module>uid-mfa-example</module>
+        <module>uid-mfa-universal-sdk</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>17</maven.compiler.release>
+    </properties>
+
+</project>
